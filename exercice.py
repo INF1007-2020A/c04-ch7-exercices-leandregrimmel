@@ -20,7 +20,7 @@ def volumeEllipsoide(a, b, c, masse_volumique):
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
-    print(volumeEllipsoide(2, 4, 2, 10))
+    print(volumeEllipsoide(2, 4, 2, 10))q
     print((lambda sentence: sorted(frequence(sentence)), key = frequence(sentence).__getitem__)[-1])("Ceci est une phrase")
 
     print (frequence("phrases"))
