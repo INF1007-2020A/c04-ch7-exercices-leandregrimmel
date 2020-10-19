@@ -29,11 +29,10 @@ def drawBranch(branch_len=70, pen_size=7, angle=35):
         forward(branch_len)
         right(angle)
         drawBranch(branch_len - 10, pen_size - 1, angle - 5)
-        left(2*angle)
+        left(2 * angle)
         drawBranch(branch_len - 10, pen_size - 1, angle - 5)
         right(angle)
         backward(branch_len)
-
 
 
 if __name__ == '__main__':
